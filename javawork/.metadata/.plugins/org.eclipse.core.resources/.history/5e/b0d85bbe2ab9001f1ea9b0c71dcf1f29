@@ -1,0 +1,21 @@
+package day1213;
+
+import java.util.Scanner;
+
+public class Ex12For {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		String i;
+		/*
+		 * 문제1
+		 * 숫자 n을 입력하면 1부터 n까지의 합계를 구하시오
+		 * (for문 사용할것)
+		 */
+		for(int start=1;i<=1;i++)
+			System.out.print("최종 값은"+i+"입니다");
+
+	}
+
+}

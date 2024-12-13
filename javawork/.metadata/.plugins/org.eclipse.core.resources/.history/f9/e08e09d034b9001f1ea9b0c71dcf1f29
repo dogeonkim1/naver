@@ -20,14 +20,21 @@ public class Ex12For {
 //			sum+=i;
 //		System.out.println("1부터"+n+"까지는"+sum+"입니다");
 		
-		
+		/*
+		 * 문제2
+		 * 숫자 k을 입력하면 5부터 m까지의 합계를 구하시오
+		 * (for문 사용할것)
+		 */
 		System.out.println("값을 입력하세요");
-		int n= sc.nextInt();
-		int sum=0;
+		int k=sc.nextInt();
 		
-		for(int i=1;i<=n;++i)
+		int sum=0;
+		for(int i=5;i<=k;++i)
 			sum+=i;
-		System.out.print(+sum);
+		System.out.println(+sum);
+		System.out.println("5부터"+k+"까지는"+sum+"입니다");
+		
+		
 
 		
 		

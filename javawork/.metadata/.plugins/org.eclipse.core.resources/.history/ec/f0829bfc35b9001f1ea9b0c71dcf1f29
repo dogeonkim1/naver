@@ -23,11 +23,9 @@ public class Ex12For {
 		
 		System.out.println("값을 입력하세요");
 		int n= sc.nextInt();
-		int sum=0;
 		
-		for(int i=1;i<=n;++i)
-			sum+=i;
-		System.out.print(+sum);
+		for(int i=1;i<=n;i++)
+			System.out.println(i+"");
 
 		
 		
