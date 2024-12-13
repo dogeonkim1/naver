@@ -1,0 +1,32 @@
+package day1211;
+
+public class Pr1DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 *이름(name)
+		 *대학교(camp)
+		 *출생년도(birth)
+		 *나이(age)
+		 *키(height)
+		 *몸무게(weight) 
+		 */
+		
+		String name=args[0];
+		String camp=args[1];
+		int birthYear=Integer.parseInt(args[2]);
+		int age=2024-birthYear;
+		int height=Integer.parseInt(args[3]);
+		int weight=Integer.parseInt(args[4]);
+		
+		System.out.println("이름 ="+name);
+		System.out.println("대학교 ="+camp);
+		System.out.println("출생년도 ="+birthYear+"년");
+		System.out.println("나이 ="+age+"세");
+		System.out.printf("키:%dcm\n",height);
+		System.out.printf("몸무게:%dkg\n",weight);
+
+	}
+
+}

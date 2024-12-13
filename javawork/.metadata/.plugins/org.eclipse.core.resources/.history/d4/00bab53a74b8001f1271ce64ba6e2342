@@ -1,0 +1,33 @@
+package day1212;
+
+import java.util.Date;
+
+public class Pr6Date {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Date today=new Date();
+		
+		int curYear=today.getYear()+1900;
+		int curMonth=today.getMonth()+1;
+		int curDate=today.getDate();
+		
+		System.out.println(curYear+"년"+curMonth+"월"+curDate+"일");
+		
+		//요일 구하기
+		int curDay=today.getDay();
+		
+		char weekend=
+				curDay  == 0 ? '일':
+				curDay  == 1 ? '월':
+				curDay  == 2 ? '화':
+				curDay  == 3 ? '수':
+				curDay  == 4 ? '목':
+				curDay  == 5 ? '금':'토';
+		System.out.println("오늘은"+weekend+"요일 입니다");
+		
+		
+
+	}
+
+}

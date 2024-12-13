@@ -1,0 +1,15 @@
+package day1211;
+
+public class Pr2DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("연습해보자 22");
+		
+		String name=args[0];
+		
+		System.out.println("인사말 :"+name);
+
+	}
+
+}

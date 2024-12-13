@@ -1,0 +1,38 @@
+package day1212;
+
+import java.util.Scanner;
+
+public class Ex12Exam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		
+		/*
+		 * 이름(name)과 java, html, spring의 3과목 점수를 입력
+		 * 총점(sum)과 평균(avg), 등급(grade), 합격여부를 출력하시오
+		 * 
+		 * 등급은 평균이 90 이상이면 '우등장학생', 80 이상이면'50프로 장학금', 나머지는 '노력요함'이라 출력
+		 * 
+		 * 합격 여부는 3과목이 50이상 평균이 모두 70이상이면 "합격입니다"
+		 * 나머지는 "불합격입니다"라고 출력(출력문에서 직접 조건연산자로 출력하기)
+		 */
+		
+		String name;
+		int su1, su2, su3,total;
+		System.out.println("이름 입력");
+		name=sc.nextLine();
+		System.out.println("java");
+		su1=sc.nextInt();
+		System.out.println("html");
+		su2=sc.nextInt();
+		System.out.println("spring");
+		su3=sc.nextInt();
+		System.out.println("평균");
+		total=su1+su2+su3;
+		System.out.println("평균"+total);
+		
+
+	}
+
+}

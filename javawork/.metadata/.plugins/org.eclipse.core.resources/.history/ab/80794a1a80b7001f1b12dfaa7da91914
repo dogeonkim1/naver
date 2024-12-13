@@ -1,0 +1,15 @@
+package day1211;
+
+public class Ex5Datatype {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//자바에서 char타입은 2바이트(한글 한글자도 온전히 저장 가능)
+		char ch1='A';
+		char ch2='가';
+		System.out.println("ch1="+ch1);
+		System.out.println("ch2="+ch2);
+
+	}
+
+}

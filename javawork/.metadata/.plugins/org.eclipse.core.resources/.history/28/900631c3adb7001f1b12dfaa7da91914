@@ -1,0 +1,12 @@
+package day1211;
+
+public class Pr3DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("평균을 구해보자");
+		//argument에 저장된 값을 double로 변환 후 평균을 구해보자
+
+	}
+
+}

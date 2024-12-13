@@ -1,0 +1,15 @@
+package day1213;
+
+import java.util.Scanner;
+
+public class Ex7While {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int score,total=0,count;
+		double avg;
+		
+	}
+
+}

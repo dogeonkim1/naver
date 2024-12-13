@@ -1,0 +1,17 @@
+package day1211;
+
+public class Ex6DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//String은 기본형이 아닌 객체타입.
+		String str1="Hello";
+		String str2=new String("Happy");
+		System.out.println(str1);
+		System.out.println(str2);
+		System.out.println("\t"+str1);
+		System.out.println("\t\t"+str2);
+				
+	}
+
+}

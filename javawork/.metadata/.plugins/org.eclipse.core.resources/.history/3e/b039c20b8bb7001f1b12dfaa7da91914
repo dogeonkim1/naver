@@ -1,0 +1,16 @@
+package day1211;
+
+public class Ex8Argument {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("외부에서 값 읽어오기");
+		String name=args[0];//이름
+		String city=args[1];//나이
+		
+		System.out.println("이름 :"+name);
+		System.out.println("지역 :"+city);
+
+	}
+
+}

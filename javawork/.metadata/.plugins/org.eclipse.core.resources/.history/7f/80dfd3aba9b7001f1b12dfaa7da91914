@@ -1,0 +1,23 @@
+package day1211;
+
+public class Pr2DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("연습해보자 22");
+		
+		String name=args[0];
+		String man=args[1];
+		String girl=args[2];
+		double date=Double.parseDouble(args[3]);
+		int money=Integer.parseInt(args[4]);
+		
+		System.out.println("인사말 :"+name+"환영합니다");
+		System.out.println("남자 :"+man+"님");
+		System.out.println("여자 :"+girl+"님");
+		System.out.println("날짜 :"+date+"일");
+		System.out.println("축의금 :"+money+"이상");
+
+	}
+
+}

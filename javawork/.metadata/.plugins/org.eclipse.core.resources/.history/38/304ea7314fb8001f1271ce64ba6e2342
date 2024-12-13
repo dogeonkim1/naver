@@ -1,0 +1,40 @@
+package day1212;
+
+import java.util.Date;
+import java.util.Scanner;
+
+public class Ex11Exam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		/*
+		 * 년(year), 월(month), 일(day)를 입력 후
+		 * 해당 날짜에 대한 date글래스를 생성 후(myDate)
+		 * myDate를 이용해서 년, 월, 일, 요일(week)을 구해서 출력
+		 * 요일은 요일 숫자(weekNum)를 먼저 얻은 후 요일을 구해서 출력
+		 */
+		
+		Date today=new Date(); 
+		int year=today.getYear()+1900;
+		int month=today.getMonth()+1;
+		int day=today.getDay();
+		int weekend=today.getDate();
+		
+		char week=
+				weekend == 0? '일':
+				weekend == 1? '월':
+				weekend == 2? '화':
+				weekend == 3? '수':
+				weekend == 4? '목':
+				weekend == 5? '금':토;
+					
+		
+		System.out.println("현재년도:"+year);
+		System.out.println("현재달:"+month+"월");
+		System.out.println("현재일:"+day+"일");
+		
+
+	}
+
+}

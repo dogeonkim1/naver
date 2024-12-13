@@ -1,0 +1,19 @@
+package day1211;
+
+public class Pr2DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("연습해보자 22");
+		
+		String name=args[0];
+		String man=args[1];
+		String girl=args[2];
+		
+		System.out.println("인사말 :"+name);
+		System.out.println("남자 :"+man);
+		System.out.println("여자 :"+girl);
+
+	}
+
+}

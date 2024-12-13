@@ -1,0 +1,17 @@
+package day1212;
+
+public class Ex5Operator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//조건(삼항)연산자 조건식1?참일때 값:거짓일때 값
+		//조건이 여러개인 경우
+		//조건식1?참일때 값:조건식2? 참일때값:조건식3?참일때값:거짓일때값
+		int x,y,max;
+		x=5;
+		y=3;
+		
+		max=x>y?x:y;
+	}
+
+}

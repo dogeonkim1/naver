@@ -1,0 +1,26 @@
+package day1211;
+
+public class Pr3DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("실수의 평균을 구해보자");
+		//argument에 저장된 값을 double로 변환 후 평균을 구해보자
+		
+		double score1=Double.parseDouble(args[0]);
+		double score2=Double.parseDouble(args[1]);
+		double score3=Double.parseDouble(args[2]);
+		double score4=Double.parseDouble(args[3]);
+		double score5=Double.parseDouble(args[4]);
+		double score6=Double.parseDouble(args[5]);
+		
+		System.out.printf("국어:"+score1+"점");
+		System.out.printf("영어:"+score2+"점");
+		System.out.printf("수학:"+score3+"점");
+		System.out.printf("한국사:"+score4+"점");
+		System.out.printf("사탐1:"+score5+"점");
+		System.out.printf("사탐2:"+score6+"점");
+
+	}
+
+}

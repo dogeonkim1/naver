@@ -1,0 +1,15 @@
+package day1213;
+
+public class Ex5While {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=10;
+		//while은 조건이 맞지 않으면 한번도 실행하지 않고 빠져나온다
+		while(a<10) {
+			System.out.println("while loop");
+		}
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package day1211;
+
+public class Pr1DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("d");
+		/*
+		 *이름(name)
+		 *대학교(camp)
+		 *출생년도(birth)
+		 *나이(age)
+		 *키(height)
+		 *몸무게(weight) 
+		 */
+		
+		String name=args[0];
+		
+		System.out.println("name="+name);
+
+	}
+
+}

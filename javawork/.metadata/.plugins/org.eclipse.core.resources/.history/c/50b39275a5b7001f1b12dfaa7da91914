@@ -1,0 +1,25 @@
+package day1211;
+
+public class Pr1DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("연습을 해보자");
+		
+		String name="김도건";
+		String havite="파리";
+		int birthYear=1997;
+		int age=2024-birthYear;
+		
+		System.out.println("이름 :"+name);
+		System.out.println("사는곳 :"+havite);
+		System.out.println("출생년도 :"+birthYear);
+		System.out.println("나이 :"+age);
+		System.out.println("----------------------");
+		System.out.println("이름%s님",name);
+		
+		
+
+	}
+
+}
