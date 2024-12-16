@@ -8,7 +8,6 @@ public class Ex5String {
 		String str1="Apple";
 		String str2="Have a Nice Day!!";
 		String str3="Orange";
-		String str4=new String("dogeon");
 		
 		System.out.println("str1="+str1);
 		System.out.println("str2="+str2);
