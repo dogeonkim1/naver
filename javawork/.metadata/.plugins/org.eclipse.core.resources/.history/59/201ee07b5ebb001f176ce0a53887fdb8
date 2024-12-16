@@ -8,7 +8,7 @@ public class Ex5String {
 		String str1="Apple";
 		String str2="Have a Nice Day!!";
 		String str3="Orange";
-		String str4=new String("Apple");
+		String str4=new String("dogeon");
 		
 		System.out.println("str1="+str1);
 		System.out.println("str2="+str2);
@@ -36,22 +36,6 @@ public class Ex5String {
 		//문자열을 정확하게 비교하기 위해서는 equals사용
 		System.out.println(str1.equals(str4));
 		System.out.println(str1.equals("apple"));//false 대소문자까지 모두 맞아야 true
-		System.out.println(str1.equalsIgnoreCase("apPle"));//대소문자 상관없이 철자만 맞으면 true
-		
-		System.out.println("문자열 비교 -compareTo");
-		int n=str1.compareTo("Apple");
-		System.out.println(n);//대소문자까지 같을 경우
-		
-		n=str1.compareTo("Banana");
-		System.out.println(n);//문자열1이 문자열2보다 작을경우 마이너스값이 나옴 'A'하고 'B'비교
-		
-		n=str3.compareTo(str1);//"Orange", "Apple"을 비교 'O','A'
-		System.out.println(n);//14:알파벳 순서가 거꾸로 되어있을 경우 양수값 14
-		
-		System.out.println();
-		System.out.println("str2를 모두 대문자로 변환:"+str2.toUpperCase());
-		System.out.println("str2를 모두 소문자로 변환:"+str2.toLowerCase());
-		
 
 	}
 
