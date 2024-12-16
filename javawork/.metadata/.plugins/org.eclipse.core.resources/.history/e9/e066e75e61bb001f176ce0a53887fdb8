@@ -55,18 +55,8 @@ public class Ex5String {
 		System.out.println();
 		System.out.println("str2가 Have로 시작하면 true:"+str2.startsWith("Have"));//대소문자 같아야함
 		System.out.println("str2가 Happy로 시작하면 true:"+str2.startsWith("Happy"));
-		System.out.println("str2가 Day!!로 끝나면 true:"+str2.endsWith("Day!!"));//끝 단어가~일때
-		System.out.println("str2가 Day!!로 끝나면 true:"+str2.endsWith("Day!"));//전체 다 맞아야 함
-		
-		System.out.println("=".repeat(50));//repeat:(n)번만큼 반복
-		System.out.println(str1.repeat(5));
-		System.out.println("*".repeat(30));
-		
-		System.out.println(str2.replace("a","*"));//a를 *로 바꿔서 출력
-		System.out.println(str2.replace("Nice", "Happy"));//Nice를 Happy로 바꿔서 출력
-		System.out.println();
-		System.out.println(str2.substring(7));//7번 인덱스부터 끝까지 출력
-		System.out.println(str2.substring(7, 10));//7~9까지 추출
+		System.out.println("str2가 Day!!로 끝나면 true:"+str2.startsWith("Day!!"));//시작 단어가~일때
+		System.out.println("str2가 Day!!로 끝나면 true:"+str2.endsWith("Day!!"));//끝 단어가 ~일때
 
 	}
 
