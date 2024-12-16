@@ -21,12 +21,13 @@ public class Ex12For {
 //		System.out.println("1부터"+n+"까지는"+sum+"입니다");
 		
 		
-		System.out.println("값을 입력하세요");
-		int n= sc.nextInt();
-		int sum=0;
+		System.out.println("값을 입력하세요");//값 입력하라고 안내
+		int n= sc.nextInt();//값 입력받음(엔터칠때까지 근데 이제 숫자를 곁들인)
+		int sum=0;//결과를 0으로 초기화
 		
-		for(int i=1;i<=n;++i)
-			sum+=i;
+		for(int i=1;i<=n;++i)//자그럼 반복하는데 변수 i를 1로 초기화 하고 i가 n보다 작거나 같을 동안 계속 돌려
+							  //근데 반복될때마다 1씩 증가시키는거야
+			sum+=i;			  
 		System.out.print(+sum);
 
 		
