@@ -18,14 +18,12 @@ class Orange
 	//값을 변경하기 위한 setter method를 만들어보자
 	public void setName(String name)
 	{
-		//같은 구역에 멤버와 같은 이름의 변수가 있을경우
-		//멤버변수 앞에 반드시 this를 붙인다.
-		this.name=name;
+		name=name;
 	}
 	
 	public void setAge(int age)
 	{
-		this.age=age;
+		
 	}
 }
 public class Ex8Object {
