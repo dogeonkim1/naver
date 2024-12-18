@@ -37,11 +37,6 @@ public class Ex8Object {
 		Orange orange=new Orange();
 		//System.out.println(orange.name);//오류:private 변수는 직접 접근 불가
 		orange.showData();
-		System.out.println("값 변경");
-		orange.setName("김태희");
-		orange.setAge(35);
-		
-		orange.showData();
 
 	}
 
