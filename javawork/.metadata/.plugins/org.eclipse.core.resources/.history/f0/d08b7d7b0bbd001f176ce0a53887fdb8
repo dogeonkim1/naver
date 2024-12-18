@@ -61,10 +61,6 @@ public class Ex9Object {
 		Car car2=new Car();
 		car2.setData("소나타",3200);
 		
-		Car car3=new Car();
-		car3.setCarName("Mini");
-		car3.setCarPrice(5000);
-		
 //		System.out.println("car1 자동차명:"+car1.getCarName());
 //		System.out.println("car1 가격:"+car1.getCarPrice());
 //		System.out.println("=".repeat(30));
@@ -73,7 +69,6 @@ public class Ex9Object {
 		
 		writeCarInfo(car1);
 		writeCarInfo(car2);
-		writeCarInfo(car3);
 	}
 
 }
